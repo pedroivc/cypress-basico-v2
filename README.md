@@ -1,29 +1,31 @@
-# Testes automatizados com Cypress - Básico
+# cypress-basico-v2
 
-👋 Seja bem-vindo(a)!
+Sample project for the basic course of the Talking About Testing online school.
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai adorar este curso. ❤️
+# Pre-requisitos
 
-## O que você vai aprender
+Before start, make sure that the following applications are installed in your computer.
 
-Durante o curso de testes automatizados com Cypress (básico), você vai aprender:
+- [git] (https://git-scm.com/) (I used the version `2.32.0` when I did this course)
 
-- Como configurar um projeto Cypress do zero
-- Como visitar páginas locais e remotas
-- Como lidar com os elementos mais comuns encontrados em aplicações web
-- Como testar _upload_ de arquivos
-- Como realizar as mais diversas verificações de resultados esperados
-- Como criar comandos customizados
-- Como lidar com links que abrem em outra aba do navegador
-- Como rodar testes simulando as dimensões de um dispositivo móvel
-- Como resolver os mesmos problemas de diferentes formas, conhecendo a [API do Cypress](https://docs.cypress.io/api/table-of-contents)
-- Como executar os testes em um _pipeline_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)
-- Como criar uma documentação mínima para seu projeto de testes automatizados
+- [Node.js] (https://nodejs.org/en/) (I used the version `v16.14.2` when I did this course)
 
-## Vamos começar?
+- [npm] (I used the version `8.7.0` when I did this course)
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
+- [Google Chrome] (https://google.com/intl/pt-br/chrome) (I used the version `Version 100.0.4896.127 (Official Build) (x86_64)` when I did this course)
 
-___
+- [Visual Studio Code] (https://code.visualstudio.com/) (I used the version `1.66.1` when I did this course) or you can use another IDE if you prefer.
 
-Este é mais um curso da [**Escola Talking About Testing**](https://udemy.com/user/walmyr).
+# Installation
+
+Run `npm install` (or `npm i` for the sdort version) to install the dev dependencies.
+
+## Tests
+
+Run `npm test` (or `npm t` for the short version) to run the test in headless mode.
+
+Or, run `npm run cy:open` to open Cypress in interactive mode.
+
+# Support this project
+
+Thanks [Walmyr] for the course. (https://walmyr.dev).

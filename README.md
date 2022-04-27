@@ -2,7 +2,7 @@
 
 Sample project for the basic course of the Talking About Testing online school.
 
-# Pre-requisitos
+# Pre-requirements
 
 Before start, make sure that the following applications are installed in your computer.
 
